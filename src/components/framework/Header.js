@@ -1,6 +1,6 @@
+import React from 'react';
 import { AppBar, Toolbar, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-
 
 const useStyles = makeStyles((theme) => ({
     root:{
@@ -11,7 +11,6 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-
 export default function Header(){
     const classes = useStyles();
     return (
@@ -20,7 +19,7 @@ export default function Header(){
                 position="static"
                 color="default"
                 elevation={0}
-                classname={classes.appBar}
+                className={classes.appBar}
                 >
                 <Toolbar>
                     <Typography
@@ -31,7 +30,6 @@ export default function Header(){
                         Kanji Slayer
                     </Typography>
                 </Toolbar>
-
             </AppBar>
 
             

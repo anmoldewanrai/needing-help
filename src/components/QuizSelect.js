@@ -1,4 +1,5 @@
-import Header from "./framework/Header"
+import React from "react";
+import Header from "./framework/Header";
 
 export const QuizSelect = () => {
 
@@ -9,4 +10,4 @@ export const QuizSelect = () => {
     )
 }
 
-export default QuizSelect
+export default QuizSelect;
